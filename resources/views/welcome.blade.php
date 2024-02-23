@@ -39,9 +39,10 @@
             Dropdown
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="/home">HOME</a></li>
+            <li><a class="dropdown-item" href="/contact">CONTACT</a></li>
+            <li><a class="dropdown-item" href="/about">ABOUT</a></li>
+            <li><a class="dropdown-item" href="/service">SERVICE</a></li>
             <li><hr class="dropdown-divider"></li>
           </ul>
         </li>

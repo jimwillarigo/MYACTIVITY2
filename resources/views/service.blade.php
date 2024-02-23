@@ -32,22 +32,24 @@
           <a class="nav-link active" aria-current="page" href="\home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contact">Contact</a>
+          <a class="nav-link" href="/services">SERVICES</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            SERVICE
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="/home">HOME</a></li>
+            <li><a class="dropdown-item" href="/contact">CONTACT</a></li>
+            <li><a class="dropdown-item" href="/about">ABOUT</a></li>
+            <li><a class="dropdown-item" href="/service">SERVICE</a></li>
             <li><hr class="dropdown-divider"></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="/services">SERVICES</a>
         </li>
+       
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -57,6 +59,6 @@
   </div>
 </nav>
 
-    
+
 </body>
 </html>
