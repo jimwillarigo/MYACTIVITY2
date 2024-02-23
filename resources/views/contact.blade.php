@@ -46,7 +46,7 @@
             <li><hr class="dropdown-divider"></li>
           </ul>
           <li class="nav-item">
-          <a class="nav-link" href="/contact">ABOUT</a>
+          <a class="nav-link" href="/about">ABOUT</a>
         </li>
 
         </li>
@@ -59,6 +59,6 @@
   </div>
 </nav>
 
-    
+<button type="button" class="btn btn-primary">Back</button>
 </body>
 </html>

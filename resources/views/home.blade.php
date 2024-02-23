@@ -48,7 +48,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contact">ABOUT</a>
+          <a class="nav-link" href="/about">ABOUT</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
@@ -58,7 +58,7 @@
     </div>
   </div>
 </nav>
-
+<button type="button" class="btn btn-primary">Back</button>
     
 </body>
 </html>

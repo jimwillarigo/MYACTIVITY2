@@ -36,7 +36,6 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            SERVICE
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="/home">HOME</a></li>
@@ -47,7 +46,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contact">ABOUT</a>
+          <a class="nav-link" href="/about">ABOUT</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
@@ -57,6 +56,6 @@
     </div>
   </div>
 </nav>
-    
+<button type="button" class="btn btn-primary">Back</button>
 </body>
 </html>

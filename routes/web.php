@@ -17,18 +17,26 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Route::get('/account/{name?}', function($name = "404"){
+//     if($name == "404"){
+//         return view("404");
+//     }else{
+//         return view("account");
+//     }
+// })->name("account-name");
+
 Route::get('/home', function () {
     return view('home');
-});
-
-Route::get('/service', function () {
-    return view('service');
-});
+})->name("home");
 
 Route::get('/about', function () {
     return view('about');
-});
+})->name("about");
+
+Route::get('/services', function () {
+    return view('services');
+})->name("services");
 
 Route::get('/contact', function () {
     return view('contact');
-});
+})->name("contact");
