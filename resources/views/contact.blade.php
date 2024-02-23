@@ -41,8 +41,8 @@
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Action</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider"></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -59,8 +59,9 @@
 
     <div class="container">
         
-    <a href="\home" type="button" class="btn btn-outline-primary">Back</a>
-
+    <a href="\home" type="button align-bottom" class="btn btn-outline-primary" class>Back</a>
+    
     </div>
 </body>
 </html>
+<!--class="btn btn-outline-primary"
