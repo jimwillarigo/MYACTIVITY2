@@ -36,8 +36,10 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SERVICE
           </a>
           <ul class="dropdown-menu">
+          
             <li><a class="dropdown-item" href="/home">HOME</a></li>
             <li><a class="dropdown-item" href="/contact">CONTACT</a></li>
             <li><a class="dropdown-item" href="/about">ABOUT</a></li>
@@ -56,6 +58,7 @@
     </div>
   </div>
 </nav>
-<button type="button" class="btn btn-primary">Back</button>
+
+    
 </body>
 </html>

@@ -39,16 +39,16 @@
             SERVICE
           </a>
           <ul class="dropdown-menu">
+          
             <li><a class="dropdown-item" href="/home">HOME</a></li>
             <li><a class="dropdown-item" href="/contact">CONTACT</a></li>
             <li><a class="dropdown-item" href="/about">ABOUT</a></li>
             <li><a class="dropdown-item" href="/service">SERVICE</a></li>
             <li><hr class="dropdown-divider"></li>
           </ul>
-          <li class="nav-item">
-          <a class="nav-link" href="/about">ABOUT</a>
         </li>
-
+        <li class="nav-item">
+          <a class="nav-link" href="/about">ABOUT</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
@@ -59,6 +59,6 @@
   </div>
 </nav>
 
-<button type="button" class="btn btn-primary">Back</button>
+    
 </body>
 </html>
