@@ -33,10 +33,34 @@ Route::get('/about', function () {
     return view('about');
 })->name("about");
 
-Route::get('/services', function () {
-    return view('services');
-})->name("services");
+Route::get('/service', function () {
+    return view('service');
+})->name("service");
 
 Route::get('/contact', function () {
     return view('contact');
 })->name("contact");
+
+Route::get('/style', function () {
+    return view('style');
+})->name("cstyle");
+
+Route::get('/department', function () {
+    return view('department');
+})->name("department");
+
+Route::get('/bsit 1', function () {
+    return view('bsit 1');
+})->name("bsit 1");
+
+Route::get('/bsit 2', function () {
+    return view('bsit 2');
+})->name("bsit 2");
+
+Route::get('/bsit 3', function () {
+    return view('bsit 3');
+})->name("bsit 3");
+
+Route::get('/bsit 4', function () {
+    return view('bsit 3');
+})->name("bsit 4");

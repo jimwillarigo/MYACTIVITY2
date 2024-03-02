@@ -6,6 +6,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+    
+       <style>
+       .container {
+      text-align:center;
+      }
+       </style>
+       
        <!-- <nav class="navbar-navbar-light bg-light">
         <div class="container-fluid">
             <a href="navbar-brand">NAVBAR</a><br>
@@ -20,6 +27,33 @@
 
 </head> 
 <body>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("img_girl.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<!-- <style>
+  body{
+    background-image: url('public/background.image/Luffy-Dark-Anime-Wallpaper-4K-Desktop.jpg');
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+  }
+</style> -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="\home">Navbar</a>
@@ -29,14 +63,17 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="\home">Home</a>
+          <a class="nav-link active" aria-current="page" href="\home">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contact">Contact</a>
+          <a class="nav-link" href="/contact">CONTACT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/service">SERVICE</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            DEPARTMENT
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="/home">HOME</a></li>
@@ -47,7 +84,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="/about">ABOUT</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
@@ -58,6 +95,18 @@
   </div>
 </nav>
 
-    
+<div class="container">
+  <h1>Welcome to Homepage</h1>
+  <style>
+  body{
+    background-image: url('Luffy-Dark-Anime-Wallpaper-4K-Desktop.jpg');
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+    color: white;
+  }
+  </style>
+</div>
+
 </body>
 </html>
