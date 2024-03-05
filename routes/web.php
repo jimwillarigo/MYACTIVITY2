@@ -41,26 +41,23 @@ Route::get('/contact', function () {
     return view('contact');
 })->name("contact");
 
-Route::get('/style', function () {
-    return view('style');
-})->name("cstyle");
+Route::get('/logo', function () {
+    return view('logo');
+})->name("logo");
 
-Route::get('/department', function () {
-    return view('department');
-})->name("department");
+Route::get('/menu', function () {
+    return view('menu');
+})->name("menu");
 
-Route::get('/bsit 1', function () {
-    return view('bsit 1');
-})->name("bsit 1");
+Route::get('/Coffee', function () {
+    return view('Coffee');
+})->name("Coffee");
 
-Route::get('/bsit 2', function () {
-    return view('bsit 2');
-})->name("bsit 2");
+Route::get('/Non-Coffee', function () {
+    return view('Non-Coffee');
+})->name("Non-Coffee");
 
-Route::get('/bsit 3', function () {
-    return view('bsit 3');
-})->name("bsit 3");
+Route::get('/Desserts', function () {
+    return view('Desserts');
+})->name("Desserts");
 
-Route::get('/bsit 4', function () {
-    return view('bsit 3');
-})->name("bsit 4");
