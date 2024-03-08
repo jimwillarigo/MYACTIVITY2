@@ -14,14 +14,14 @@
 <style>
   .center {
       text-align:center;
-      padding: 200px 0;
+      padding: 300px 0;
   }
   .p1 {
       font-family: "Times New Roman", Times, Serif;
   }
   body{
       background-image: url('background-drink-coffee-design-illustration-free-vector.jpg');
-      height: 20vh;
+      height: 60vh;
       background-size:"width:100%";
       background-position: center;
       color: white;
@@ -35,13 +35,31 @@
       font-family: "Playfair Display";
       letter-spacing: 5px;
   }
+  .about{
+    text-align:center;
+    justify: justify;
+    padding-top: 200px 0;
+  }
+  .menu{
+    background-color: white;
+    background-position: cover;
+  }
+  .about-section{
+    background-image: url('onepage_restaurant.jpg');
+    height: 150%;
+    background-size:"width:100%";
+    background-position: center;
+  }
+  .col{
+    background-size: "height:50% , width:50%";
+  }
  
     
     </style>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="main">
       <div class="logo">
-        <img src="coffee-shop-logo-design-template-coffee-logo-design-cafe-logo-design-vector-removebg.png">
+        <img src="1.png">
       </div>
     </div>
       <a class="navbar-brand" href="\home"></a>
@@ -87,10 +105,11 @@
 
 
 <!-- MENU -->
+<div class="menu">
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
-    <div class="card h-100">
-      <img src="coffee-background-space-text-85121087.webp" class="card-img-top" alt="...">
+    <div class="card h-100%">
+      <img src="coffee.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="dropdown-item" href="/coffee">COFFEE</h5>
         <p class="card-text">"Coffee is a language in itself." - Jackie Chan</p>
@@ -102,8 +121,8 @@
   </div>
 
   <div class="col">
-    <div class="card h-100">
-      <img src="coffee-background-space-text-85121087.webp" class="card-img-top" alt="...">
+    <div class="card h-100%">
+      <img src="coffee.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="dropdown-item" href="/non-coffee">NON-COFFEE</h5>
         <p class="card-text">"The only way to do great work is to love what you do." - Steve Jobs</p>
@@ -115,8 +134,8 @@
   </div>
 
   <div class="col">
-    <div class="card h-100">
-      <img src="coffee-background-space-text-85121087.webp" class="card-img-top" alt="...">
+    <div class="card h-100%">
+      <img src="coffee.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="dropdown-item" href="/desserts">DESSERTS</h5>
         <p class="card-text">"Dessert is like a feel-good song, and the best ones make you dance." - Edward Lee</p>
@@ -128,5 +147,19 @@
   </div>
 </div>
 
+<!-- About Section -->
+<div class="center" id="about">
+    <div class="col m6">
+     <img src="onepage_restaurant.jpg" class="round wimage opacity-min" alt="Table Setting" width="100%" height="150%">
+    </div>
+
+    <div class="col m6 large">
+      <h1 class="center , text-black" style="font-size:50px";>About Catering</h1><br>
+      <h5 class="text-black , padding-top-200px 0" style="font-size:30px">Tradition since 1889</h5>
+      <p class="text-black" style="font-size:20px">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum..</p>
+    </div>
+  </div>
+  
+</div>
 </body>
 </html>

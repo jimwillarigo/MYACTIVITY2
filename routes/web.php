@@ -54,38 +54,16 @@ Route::get('/desserts', function () {
 })->name("desserts");
 
 
-
-
-
-
-
-
-
-
-
-// Include necessary classes and dependencies
-require_once 'Router.php'; // Assuming you have a Router class
-require_once 'TaskController.php'; // Assuming you have a TaskController class
-
-// Instantiate the router
-$router = new Router();
-
-
-
-
-// Define routes for TaskController
-
-route::resource(name:'tasks', controler:'TaskCotroller')->middleware(['auth']);
-route::resource(name:'users', controler:'UserCotroller')->middleware(['auth']);
-
-
-route::group(['middleware'=> 'auth'], function(){;
-    route::resource(name:'tasks', controler:'TaskController');
-
-    route::group(['middleware'=>'admin'],function() {;
-           route::resource(name:'users', controler:'UserController');
-
-        });
+Route::name('menu,')->group(function () {
+    Route::get('/coffee', function () {
+        return view("coffee");
+})->name('coffee');
+Route::get('/non-coffee', function () {
+    return view('non-coffee');
+})->name('non-coffee');
+Route::get('/desserts', function () {
+    return view('desserts');
+})->name('desserts');
 });
 
 
@@ -94,15 +72,3 @@ route::group(['middleware'=> 'auth'], function(){;
 
 
 
-
-
-
-// Run the router
-$router->dispatch();
-route::get(uri:'tasks', 'TaskController@index');
-route::get(uri:'tasks/create', 'TaskController@create');
-route::post(uri:'tasks', 'TaskController@store');
-route::get(uri:'tasks/{id}', 'TaskController@show');
-route::get(uri:'tasks/edit/{id}', 'TaskController@edit');
-route::put(uri:'tasks/{id}', 'TaskController@update');
-route::delete(uri:'tasks/{id}', 'TaskController@destroy');
