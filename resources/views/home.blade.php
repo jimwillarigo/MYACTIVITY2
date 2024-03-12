@@ -11,7 +11,7 @@
 
 </head> 
 <body>
-<style>
+ <style>
   .center {
       text-align:center;
       padding: 300px 0;
@@ -53,9 +53,9 @@
   .col{
     background-size: "height:50% , width:50%";
   }
- 
-    
-    </style>
+   </style>
+
+
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="main">
       <div class="logo">
@@ -99,7 +99,7 @@
     </div>
   </nav>
   <div class="center">
-        <h1 class="p1" style="font-size:100px">Welcome to Contact</h1>
+        <h1 class="p1" style="font-size:100px">Welcome to Homepage</h1>
         <h1 class="p1" style="font-size:50px">I am Jimwil</h1>  
   </div>
 

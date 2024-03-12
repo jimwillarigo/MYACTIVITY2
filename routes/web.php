@@ -41,6 +41,8 @@ Route::get('/menu', function () {
     return view('menu');
 })->name("menu");
 
+
+
 Route::get('/coffee', function () {
     return view('coffee');
 })->name("coffee");
@@ -52,6 +54,12 @@ Route::get('/non-coffee', function () {
 Route::get('/desserts', function () {
     return view('desserts');
 })->name("desserts");
+
+
+
+
+
+
 
 
 Route::name('menu,')->group(function () {
