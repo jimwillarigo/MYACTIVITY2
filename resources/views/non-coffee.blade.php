@@ -13,6 +13,16 @@
     width: 70%;
     margin: auto;
   }
+  .back{
+    background-color:#1437c4;
+    color:#ffffff;
+    }
+    .NAME{
+    color:#c70404;
+    font-family:Georgia;
+    font-size: 30px;
+  }
+  
   </style>
 </head>
 <body>
@@ -28,7 +38,7 @@ function goBack() {
 </head>
 <body>
 
-<button onclick="goBack()">Go Back</button>
+<button class="back" onclick="goBack()">Go Back</button>
 
 <div class="container">
   <br>
@@ -49,32 +59,32 @@ function goBack() {
         <img src="brown sugar espresso.jpg" alt="Chania" width="460" height="345">
         <div class="carousel-caption">
          
-          <h3>BROWN SUGAR ESPRESSO</h3>
-          <p>“Black coffee is my morning ritual, bringing clarity and focus to each day.”.</p>
+          <h3></h3>
+          <p class="NAME">“Black coffee is my morning ritual, bringing clarity and focus to each day”.</p>
         </div>
       </div>
 
       <div class="item">
         <img src="chocolate almond.jpg" alt="Chania" width="460" height="345">
         <div class="carousel-caption">
-          <h3>CHOCOLATE ALMOND</h3>
-          <p>Once you wake up and smell the coffee, it's hard to go back to sleep.</p>
+          <h3></h3>
+          <p class="NAME">"Once you wake up and smell the coffee, it's hard to go back to sleep".</p>
         </div>
       </div>
 
       <div class="item">
         <img src="Iced-Caramel-Macchiato.webp" alt="Flower" width="460" height="345">
         <div class="carousel-caption">
-          <h3>ICED-CARAMEL-MACCHIATO</h3>
-          <p>Mental health problems are no match to coffee therapy!</p>
+          <h3></h3>
+          <p class="NAME">"Mental health problems are no match to coffee therapy"<div class=""></div></p>
         </div>
       </div>
 
       <div class="item">
         <img src="salted caramel.jpg" alt="Flower" width="460" height="345">
         <div class="carousel-caption">
-          <h3>SALTED CARAMEL</h3>
-          <p>Espresso helps me to do stupid things at greater efficiency.</p>
+          <h3></h3>
+          <p class="NAME">"Espresso helps me to do stupid things at greater efficiency".</p>
         </div>
       </div>
 

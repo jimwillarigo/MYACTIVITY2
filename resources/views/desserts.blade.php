@@ -13,7 +13,15 @@
     width: 70%;
     margin: auto;
   }
-
+  .back{
+    background-color:#1437c4;
+    color:#ffffff;
+    }
+  .NAME{
+    color:#c70404;
+    font-family:Georgia;
+    font-size: 30px;
+  }
 
 
   </style>
@@ -30,7 +38,7 @@ function goBack() {
 </head>
 <body>
 
-<button onclick="goBack()">Go Back</button>
+<button class="back" onclick="goBack()">Go Back</button>
 
 
 
@@ -53,32 +61,32 @@ function goBack() {
         <img src="cassava cake.jpg" alt="Chania" width="460" height="345">
         <div class="carousel-caption">
          
-          <h3>CASSAVA CAKE</h3>
-          <p>"Life is uncertain. Eat dessert first." </p>
+          <h3></h3>
+          <p class="NAME">"Life is uncertain. Eat dessert first." </p>
         </div>
       </div>
 
       <div class="item">
         <img src="bibingkang malagkit.jpg" alt="Chania" width="460" height="345">
         <div class="carousel-caption">
-          <h3>BIBINGKANG MALAGKIT</h3>
-          <p>"Life is short. Eat dessert first."</p>
+          <h3></h3>
+          <p class="NAME">"Life is short. Eat dessert first."</p>
         </div>
       </div>
 
       <div class="item">
         <img src="ube halaya.jpg" alt="Flower" width="460" height="345">
         <div class="carousel-caption">
-          <h3>UBE HALAYA</h3>
-          <p>"Dessert is like a hug that lasts longer." </p>
+          <h3></h3>
+          <p class="NAME">"Dessert is like a hug that lasts longer." </p>
         </div>
       </div>
 
       <div class="item">
         <img src="leche flan.jpg" alt="Flower" width="460" height="345">
         <div class="carousel-caption">
-          <h3>LECHE FLAN</h3>
-          <p>"Dessert is like a feel-good song, and the best ones make you dance." </p>
+          <h3></h3>
+          <p class="NAME">"Dessert is like a feel-good song, and the best ones make you dance." </p>
         </div>
       </div>
 

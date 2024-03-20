@@ -5,20 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
+    <link rel="stylesheet" href="css/css.css">
 
         <title>IAS - Activity 2</title>
 
 </head> 
 <body>
-<style>
-  .center {
-      text-align:center;
-      padding: 300px 0;
-  }
-  .p1 {
-      font-family: "Times New Roman", Times, Serif;
-  }
+ <style>
+ 
   body{
       background-image: url('background-drink-coffee-design-illustration-free-vector.jpg');
       height: 60vh;
@@ -26,36 +20,10 @@
       background-position: center;
       color: white;
   }
-  .logo img{
-      float: left;
-      width: 100px;
-  }
-  body{font-family: "Times New Roman", Georgia, Serif;}
-    h1, h2, h3, h4, h5, h6 {
-      font-family: "Playfair Display";
-      letter-spacing: 5px;
-  }
-  .about{
-    text-align:center;
-    justify: justify;
-    padding-top: 200px 0;
-  }
-  .menu{
-    background-color: white;
-    background-position: cover;
-  }
-  .about-section{
-    background-image: url('onepage_restaurant.jpg');
-    height: 150%;
-    background-size:"width:100%";
-    background-position: center;
-  }
-  .col{
-    background-size: "height:50% , width:50%";
-  }
- 
-    
-    </style>
+  
+   </style>
+
+
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="main">
       <div class="logo">
@@ -146,6 +114,104 @@
     </div>
   </div>
 </div>
+
+<!-- contact -->
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+h2{
+  font-size: 50px;
+  color:#0a0a0a;
+}
+</style>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="map.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
 
 <!-- About Section -->
 <div class="center" id="about">

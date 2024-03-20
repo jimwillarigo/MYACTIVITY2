@@ -10,31 +10,37 @@
   <style>
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-    width: 70%;
-    margin: auto;
+    background-position: cover;
+    width: 100%;
+    height:100%;
+
   }
 
 
-
+  .back{
+    background-color:#1437c4;
+    color:#ffffff;
+    }
+  .NAME{
+    color:#c70404;
+    font-family:Georgia;
+    font-size: 30px;
+  }
   </style>
 </head>
 <body>
-
-
-
-
-
-
 
 <script>
 function goBack() {
   window.history.back()
 }
+ 
 </script>
 </head>
 <body>
 
-<button onclick="goBack()">Go Back</button>
+<button class="back"  onclick="goBack()">Go Back</button>
+
 
 
 
@@ -54,35 +60,34 @@ function goBack() {
     
 
       <div class="item active">
-        <img src="black_coffee.webp" alt="Chania" width="460" height="345">
+        <img src="black_coffee.webp" alt="Chania" width="500" height="500">
         <div class="carousel-caption">
-         
-          <h3>BLACK_COFFEE</h3>
-          <p>“Black coffee is my morning ritual, bringing clarity and focus to each day.”.</p>
+          <h3 class="NAME">BLACK_COFFEE</h3>
+          <p class="NAME">“Black coffee is my morning ritual, bringing clarity and focus to each day”.</p>
         </div>
       </div>
 
       <div class="item">
-        <img src="americano_coffee.jpg" alt="Chania" width="460" height="345">
+        <img src="americano_coffee.jpg" alt="Chania" width="500" height="500">
         <div class="carousel-caption">
-          <h3>AMERICANO_COFFEE</h3>
-          <p>Once you wake up and smell the coffee, it's hard to go back to sleep.</p>
+          <h3 class="NAME">AMERICANO_COFFEE</h3>
+          <p class="NAME">"Once you wake up and smell the coffee, it's hard to go back to sleep".</p>
         </div>
       </div>
 
       <div class="item">
-        <img src="Doppio.jpg" alt="Flower" width="460" height="345">
+        <img src="Doppio.jpg" alt="Flower" width="500" height="500">
         <div class="carousel-caption">
-          <h3>DOPPIO</h3>
-          <p>Mental health problems are no match to coffee therapy!</p>
+          <h3 class="NAME">DOPPIO</h3>
+          <p class="NAME">"Mental health problems are no match to coffee therapy"</p>
         </div>
       </div>
 
       <div class="item">
-        <img src="espresso.jpg" alt="Flower" width="460" height="345">
+        <img src="espresso.jpg" alt="Flower" width="500" height="500">
         <div class="carousel-caption">
-          <h3>ESPRESSO</h3>
-          <p>Espresso helps me to do stupid things at greater efficiency.</p>
+          <h3 class="NAME">ESPRESSO</h3>
+          <p class="NAME">"Espresso helps me to do stupid things at greater efficiency".</p>
         </div>
       </div>
 
