@@ -33,3 +33,11 @@ body{font-family: "Times New Roman", Georgia, Serif;}
 .col{
   background-size: "height:50% , width:50%";
 }
+
+.search-1{
+  margin-right: 5%;
+}
+.search-1 button a{
+  text-decoration: none;
+  color: white;
+}

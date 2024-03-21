@@ -59,10 +59,17 @@
             </ul>
           </li>
         </ul>
+        <div class="search-1">
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit" style="font-size: 20px">Search</button>
         </form>
+        </div>
+
+        <div class="search-1">
+        <button  type="submit"  class="btn btn-primary" font-size: 20px><a href="login">LOG IN</a></button>
+
+      </div>
       </div>
     </div>
   </nav>
@@ -70,6 +77,7 @@
         <h1 class="p1" style="font-size:100px">Welcome to Homepage</h1>
         <h1 class="p1" style="font-size:50px">I am Jimwil</h1>  
   </div>
+  
 
 
 <!-- MENU -->
@@ -114,6 +122,8 @@
     </div>
   </div>
 </div>
+
+
 
 <!-- contact -->
 <style>

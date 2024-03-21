@@ -41,6 +41,9 @@ Route::get('/menu', function () {
     return view('menu');
 })->name("menu");
 
+Route::get('/login', function () {
+    return view('login');
+})->name("login");
 
 
 Route::get('/coffee', function () {
